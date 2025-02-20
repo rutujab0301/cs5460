@@ -1250,7 +1250,7 @@ TUI can show you the state of the registers and how they are changing as you exe
 ```
 (gdb) tui reg general
 ```
-TUI is a very cute part of GDB and hence it makes sense to read more about various capabilities http://sourceware.org/gdb/onlinedocs/gdb/TUI-Commands.html(INSERT LINK HERE). For example, you can specify the assembly layout to single step through machine instructions similar to source code:
+TUI is a very cute part of GDB and hence it makes sense to read more about various capabilities http://sourceware.org/gdb/onlinedocs/gdb/TUI-Commands.html. For example, you can specify the assembly layout to single step through machine instructions similar to source code:
 ```
 (gdb) layout asm
 ```
