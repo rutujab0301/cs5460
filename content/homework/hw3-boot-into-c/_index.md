@@ -1083,6 +1083,7 @@ In this case, the entry point is `0x1010f0`.
 Now we can start QEMU with GDB and break at this address. Open two terminals, either using a terminal multiplexer like [tmux](https://linuxize.com/post/getting-started-with-tmux/) or in another teminal. Run `make qemu-gdb` in the first terminal. In the other terminal, change directory, and start gdb.
 ```
 CADE$ make qemu-gdb
+```
 
 
 
@@ -1102,8 +1103,7 @@ CADE$ make qemu-gdb
 
 
 
-
-    
+``` 
 put .gdbinit file to the path of your homework 3.
 CADE$ cd <path_to_hw3>
 CADE$ gdb
